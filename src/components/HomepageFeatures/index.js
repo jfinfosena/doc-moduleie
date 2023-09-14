@@ -4,42 +4,39 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Los sistemas embebidos: lo que son y cómo funcionan',
+    image:" /img/main/img1.png" ,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Los sistemas embebidos son sistemas informáticos que están diseñados para realizar una tarea específica o un conjunto de tareas. Se encuentran en una amplia gama de dispositivos, desde electrodomésticos hasta vehículos autónomos.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'El Internet de las Cosas: una red de dispositivos conectados',
+    image:" /img/main/img2.png" ,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+       El Internet de las Cosas (IoT) es una red de dispositivos físicos, vehículos, edificios y otros elementos conectados a Internet que pueden recopilar y compartir datos. Los sistemas embebidos son esenciales para el IoT, ya que permiten que los dispositivos se conecten entre sí y con la red.
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: 'Sistemas embebidos e IoT: el futuro de la tecnología',
+    image:" /img/main/img3.png" ,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+       Los sistemas embebidos e IoT están transformando la forma en que vivimos, trabajamos y nos divertimos. Están creando nuevas oportunidades en una amplia gama de industrias, desde la salud y la seguridad hasta la fabricación y la logística.
       </>
     ),
   },
 ];
 
-function Feature({Svg, title, description}) {
+function Feature({image, title, description}) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
+      <img className={styles.featureImage} src={image} alt={title} /> 
       </div>
       <div className="text--center padding-horiz--md">
         <h3>{title}</h3>

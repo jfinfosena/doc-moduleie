@@ -1,47 +1,20 @@
 ---
 sidebar_position: 1
+title: Introducción
+hide_title: true
 ---
 
-# Tutorial Intro
 
-Let's discover **Docusaurus in less than 5 minutes**.
+### Módulo de sistemas embebidos y el Internet de las cosas
 
-## Getting Started
+La plataforma de hardware y software de sistemas embebidos y el Internet de las cosas ha sido desarrollada por el área de investigación del Sena CTMA-TIC-Electrónica. Esta plataforma está diseñada para enseñar sobre la electrónica moderna y las tecnologías actuales en el área de electrónica.
 
-Get started by **creating a new site**.
+La documentación disponible en esta plataforma ofrece información detallada sobre los aspectos fundamentales del diseño y construcción de sistemas embebidos, desde la selección de componentes hasta la programación de microcontroladores y la integración de sensores y actuadores. También incluye información sobre la conectividad y comunicación entre dispositivos, la implementación de servicios en la nube y la seguridad en los sistemas embebidos y soluciones IoT.
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+La plataforma está compuesta por una serie de módulos PCB con diferentes tecnologías electrónicas que se pueden combinar para realizar prácticas de diseño, desarrollo e implementación de sistemas embebidos y el IoT. Cada uno de estos módulos PCB se enfoca en una tecnología específica, como sensores, actuadores, comunicación inalámbrica, microcontroladores y muchas más. La característica principal de estos módulos es que están diseñados para ser fáciles de conectar entre sí, lo que permite crear sistemas embebidos y soluciones IoT complejas con facilidad.
 
-### What you'll need
+La plataforma utiliza herramientas de desarrollo libres y de código abierto, como Arduino y Raspberry Pi, lo que significa que los estudiantes no tendrán que gastar grandes cantidades de dinero en software propietario para aprender y desarrollar sus habilidades en el área de la electrónica.
 
-- [Node.js](https://nodejs.org/en/download/) version 16.14 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+La documentación detallada disponible en la plataforma permite a los estudiantes aprender de manera autónoma, con manuales de usuario, guías de inicio rápido, tutoriales y ejemplos de proyectos completos. Esto les permite aprender a su propio ritmo y en función de sus necesidades, para que puedan adquirir las habilidades que necesitan para su carrera en el área de la electrónica.
 
-## Generate a new site
-
-Generate a new Docusaurus site using the **classic template**.
-
-The classic template will automatically be added to your project after you run the command:
-
-```bash
-npm init docusaurus@latest my-website classic
-```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+En conclusión, esta plataforma de hardware y software de sistemas embebidos y el IoT es una herramienta completa diseñada específicamente para estudiantes del área de electrónica del Sena. Les brinda la oportunidad de adquirir habilidades valiosas y emocionantes en el mundo de la electrónica moderna y las tecnologías del futuro.
