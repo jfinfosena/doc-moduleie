@@ -30,7 +30,7 @@ Tarjeta compatible Mega 2560 versión PRO Mini: Esta tarjeta basada en el microc
 
 ### Software
 
-#### Ejemplos
+#### Ejemplos p
 
 1. Ejemplo 1
 
