@@ -6,15 +6,81 @@ draft: false
 ---
 
 
-## Módulo 02 - ESP32-C6
+## Módulo 02 - FPGA Tang Nano 9K
 
 ### Descripción
 
 El módulo 02 se enfoca en el uso de diferentes dispositivos y herramientas de hardware para el desarrollo de proyectos de sistemas embebidos e IoT. Este módulo incluye dos componentes principales:
 
-Arduino™ MKR WiFi 1010: Esta tarjeta está equipada con WiFi y Bluetooth®, un microcontrolador ARM Cortex y un criptochip, lo que la hace una potente herramienta para el desarrollo de aplicaciones IoT. Cuenta con diversas características como pines digitales I/O, pines PWM, comunicación SPI, UART, I2C, I2S, pines de entrada y salida análoga, interrupciones externas, memoria flash y SRAM.
+Tang Nano 9K: es una placa de desarrollo basada en el chip FPGA Gowin GW1NR-9. Está equipada con un conector HDMI, un conector de interfaz de pantalla RGB, un conector de pantalla SPI, un flash SPI de 32 Mbit y 6 LED, para que los usuarios puedan usarlo para la verificación FPGA, risc-v . verificación de núcleo blando y verificación de funciones básicas de forma fácil y rápida. Sus unidades lógicas 8640 LUT4 no solo se pueden usar para el diseño de varios circuitos lógicos complejos, sino que también se pueden usar para ejecutar un núcleo blando PicoRV completo. También satisface diversas necesidades de los usuarios, como aprender FPGA, verificar el núcleo blando y realizar más diseños.
 
-Tarjeta compatible Mega 2560 versión PRO Mini: Esta tarjeta basada en el microcontrolador ATMega 2560 es una versión compacta que cuenta con una interfaz USB-TTL en lugar de un conector USB. Tiene características como 70 pines digitales I/O, 16 entradas análogas, 14 pines PWM y 4 UART bus.
+Una matriz de puertas lógicas programable en campo (FPGA) es un circuito integrado (IC) que se puede programar después de la fabricación para realizar una amplia gama de funciones. Las FPGA están compuestas de una matriz de bloques lógicos configurables (CLB) e interconexiones programables. Los CLB se pueden configurar para realizar funciones lógicas básicas, como AND, OR y XOR, y las interconexiones se pueden programar para conectar los CLB entre sí de diferentes maneras. Esto permite que las FPGA se programen para implementar una amplia variedad de circuitos digitales, desde simples puertas lógicas hasta procesadores microcomputadores complejos.
+
+Las FPGA se utilizan en una amplia gama de aplicaciones, que incluyen:
+
+Prototipado: Las FPGA se utilizan a menudo para prototipar nuevos diseños antes de comprometerse con los ASIC. Esto se debe a que las FPGA son mucho más flexibles que los ASIC y se pueden reprogramar para implementar diferentes diseños.
+Computación de alto rendimiento: Las FPGA se utilizan cada vez más en aplicaciones de computación de alto rendimiento porque se pueden personalizar para realizar tareas específicas de manera muy eficiente.
+Sistemas integrados: Las FPGA se utilizan a menudo en sistemas integrados porque son pequeñas, eficientes en energía y se pueden reprogramar para implementar diferentes funciones.
+Procesamiento de señales: Las FPGA son adecuadas para aplicaciones de procesamiento de señales porque se pueden programar para implementar algoritmos complejos de manera muy eficiente.
+Las FPGA ofrecen varias ventajas sobre los ASIC tradicionales:
+
+Flexibilidad: Las FPGA se pueden reprogramar para implementar diferentes diseños, lo que las hace mucho más flexibles que los ASIC.
+Tiempo de comercialización: Las FPGA se pueden programar mucho más rápido que los ASIC, lo que puede reducir significativamente el tiempo de comercialización de nuevos productos.
+Costo: Las FPGA son menos costosas que los ASIC para pequeños volúmenes de producción.
+Sin embargo, las FPGA también tienen algunas desventajas en comparación con los ASIC:
+
+Rendimiento: Los ASIC se pueden diseñar para ser más potentes que las FPGA para aplicaciones específicas.
+Consumo de energía: Los ASIC se pueden diseñar para ser más eficientes en energía que las FPGA para aplicaciones específicas.
+Costo: Los ASIC son menos costosos que las FPGA para grandes volúmenes de producción.
+En general, las FPGA son una tecnología versátil y poderosa que se puede utilizar en una amplia gama de aplicaciones. Ofrecen varias ventajas sobre los ASIC tradicionales, como flexibilidad, tiempo de comercialización y costo. Sin embargo, las FPGA también tienen algunas desventajas en comparación con los ASIC, como rendimiento, consumo de energía y costo.
+
+Aquí hay algunos ejemplos de aplicaciones específicas de FPGA:
+Prototipado de un nuevo diseño de microprocesador: Una FPGA se puede utilizar para prototipar un nuevo diseño de microprocesador antes de comprometerse con un ASIC. Esto permite a los diseñadores probar y refinar el diseño antes de que se fabrique.
+Implementación de un algoritmo de procesamiento de señales de alto rendimiento: Una FPGA se puede programar para implementar un algoritmo de procesamiento de señales de alto rendimiento, como una Transformada de Fourier Rápida (FFT). Esto se puede utilizar para acelerar el procesamiento de señales en aplicaciones como radar y comunicaciones.
+Desarrollo de un sistema integrado para una aplicación de control: Una FPGA se puede utilizar para desarrollar un sistema integrado para una aplicación de control, como un controlador de motor. Esto permite que el sistema se adapte a los requisitos específicos de la aplicación.Una matriz de puertas lógicas programable en campo (FPGA) es un circuito integrado (IC) que se puede programar después de la fabricación para realizar una amplia gama de funciones. Las FPGA están compuestas de una matriz de bloques lógicos configurables (CLB) e interconexiones programables. Los CLB se pueden configurar para realizar funciones lógicas básicas, como AND, OR y XOR, y las interconexiones se pueden programar para conectar los CLB entre sí de diferentes maneras. Esto permite que las FPGA se programen para implementar una amplia variedad de circuitos digitales, desde simples puertas lógicas hasta procesadores microcomputadores complejos.
+
+Las FPGA se utilizan en una amplia gama de aplicaciones, que incluyen:
+Prototipado: Las FPGA se utilizan a menudo para prototipar nuevos diseños antes de comprometerse con los ASIC. Esto se debe a que las FPGA son mucho más flexibles que los ASIC y se pueden reprogramar para implementar diferentes diseños.
+Computación de alto rendimiento: Las FPGA se utilizan cada vez más en aplicaciones de computación de alto rendimiento porque se pueden personalizar para realizar tareas específicas de manera muy eficiente.
+Sistemas integrados: Las FPGA se utilizan a menudo en sistemas integrados porque son pequeñas, eficientes en energía y se pueden reprogramar para implementar diferentes funciones.
+Procesamiento de señales: Las FPGA son adecuadas para aplicaciones de procesamiento de señales porque se pueden programar para implementar algoritmos complejos de manera muy eficiente.
+
+Las FPGA ofrecen varias ventajas sobre los ASIC tradicionales:
+Flexibilidad: Las FPGA se pueden reprogramar para implementar diferentes diseños, lo que las hace mucho más flexibles que los ASIC.
+Tiempo de comercialización: Las FPGA se pueden programar mucho más rápido que los ASIC, lo que puede reducir significativamente el tiempo de comercialización de nuevos productos.
+Costo: Las FPGA son menos costosas que los ASIC para pequeños volúmenes de producción.
+Sin embargo, las FPGA también tienen algunas desventajas en comparación con los ASIC:
+Rendimiento: Los ASIC se pueden diseñar para ser más potentes que las FPGA para aplicaciones específicas.
+Consumo de energía: Los ASIC se pueden diseñar para ser más eficientes en energía que las FPGA para aplicaciones específicas.
+Costo: Los ASIC son menos costosos que las FPGA para grandes volúmenes de producción.
+En general, las FPGA son una tecnología versátil y poderosa que se puede utilizar en una amplia gama de aplicaciones. Ofrecen varias ventajas sobre los ASIC tradicionales, como flexibilidad, tiempo de comercialización y costo. Sin embargo, las FPGA también tienen algunas desventajas en comparación con los ASIC, como rendimiento, consumo de energía y costo.
+
+Aquí hay algunos ejemplos de aplicaciones específicas de FPGA:
+
+Prototipado de un nuevo diseño de microprocesador: Una FPGA se puede utilizar para prototipar un nuevo diseño de microprocesador antes de comprometerse con un ASIC. Esto permite a los diseñadores probar y refinar el diseño antes de que se fabrique.
+Implementación de un algoritmo de procesamiento de señales de alto rendimiento: Una FPGA se puede programar para implementar un algoritmo de procesamiento de señales de alto rendimiento, como una Transformada de Fourier Rápida (FFT). Esto se puede utilizar para acelerar el procesamiento de señales en aplicaciones como radar y comunicaciones.
+Desarrollo de un sistema integrado para una aplicación de control: Una FPGA se puede utilizar para desarrollar un sistema integrado para una aplicación de control, como un controlador de motor. Esto permite que el sistema se adapte a los requisitos específicos de la aplicación.Una matriz de puertas lógicas programable en campo (FPGA) es un circuito integrado (IC) que se puede programar después de la fabricación para realizar una amplia gama de funciones. Las FPGA están compuestas de una matriz de bloques lógicos configurables (CLB) e interconexiones programables. Los CLB se pueden configurar para realizar funciones lógicas básicas, como AND, OR y XOR, y las interconexiones se pueden programar para conectar los CLB entre sí de diferentes maneras. Esto permite que las FPGA se programen para implementar una amplia variedad de circuitos digitales, desde simples puertas lógicas hasta procesadores microcomputadores complejos.
+
+Las FPGA se utilizan en una amplia gama de aplicaciones, que incluyen:
+Prototipado: Las FPGA se utilizan a menudo para prototipar nuevos diseños antes de comprometerse con los ASIC. Esto se debe a que las FPGA son mucho más flexibles que los ASIC y se pueden reprogramar para implementar diferentes diseños.
+Computación de alto rendimiento: Las FPGA se utilizan cada vez más en aplicaciones de computación de alto rendimiento porque se pueden personalizar para realizar tareas específicas de manera muy eficiente.
+Sistemas integrados: Las FPGA se utilizan a menudo en sistemas integrados porque son pequeñas, eficientes en energía y se pueden reprogramar para implementar diferentes funciones.
+Procesamiento de señales: Las FPGA son adecuadas para aplicaciones de procesamiento de señales porque se pueden programar para implementar algoritmos complejos de manera muy eficiente.
+
+Las FPGA ofrecen varias ventajas sobre los ASIC tradicionales:
+Flexibilidad: Las FPGA se pueden reprogramar para implementar diferentes diseños, lo que las hace mucho más flexibles que los ASIC.
+Tiempo de comercialización: Las FPGA se pueden programar mucho más rápido que los ASIC, lo que puede reducir significativamente el tiempo de comercialización de nuevos productos.
+Costo: Las FPGA son menos costosas que los ASIC para pequeños volúmenes de producción.
+Sin embargo, las FPGA también tienen algunas desventajas en comparación con los ASIC:
+Rendimiento: Los ASIC se pueden diseñar para ser más potentes que las FPGA para aplicaciones específicas.
+Consumo de energía: Los ASIC se pueden diseñar para ser más eficientes en energía que las FPGA para aplicaciones específicas.
+Costo: Los ASIC son menos costosos que las FPGA para grandes volúmenes de producción.
+En general, las FPGA son una tecnología versátil y poderosa que se puede utilizar en una amplia gama de aplicaciones. Ofrecen varias ventajas sobre los ASIC tradicionales, como flexibilidad, tiempo de comercialización y costo. Sin embargo, las FPGA también tienen algunas desventajas en comparación con los ASIC, como rendimiento, consumo de energía y costo.
+
+Aquí hay algunos ejemplos de aplicaciones específicas de FPGA:
+Prototipado de un nuevo diseño de microprocesador: Una FPGA se puede utilizar para prototipar un nuevo diseño de microprocesador antes de comprometerse con un ASIC. Esto permite a los diseñadores probar y refinar el diseño antes de que se fabrique.
+Implementación de un algoritmo de procesamiento de señales de alto rendimiento: Una FPGA se puede programar para implementar un algoritmo de procesamiento de señales de alto rendimiento, como una Transformada de Fourier Rápida (FFT). Esto se puede utilizar para acelerar el procesamiento de señales en aplicaciones como radar y comunicaciones.
+Desarrollo de un sistema integrado para una aplicación de control: Una FPGA se puede utilizar para desarrollar un sistema integrado para una aplicación de control, como un controlador de motor. Esto permite que el sistema se adapte a los requisitos específicos de la aplicación.
 
 ### Diagramas esquemáticos
 
@@ -133,13 +199,10 @@ void loop() {
 
 ### Documentación adicional
 
-- Arduino™ MKR WiFi 1010
+- Tang Nano 9K
   
-[https://store.arduino.cc/products/arduino-mkr-wifi-1010](https://store.arduino.cc/products/arduino-mkr-wifi-1010)
+[https://wiki.sipeed.com/hardware/en/tang/Tang-Nano-9K/Nano-9K.html](https://wiki.sipeed.com/hardware/en/tang/Tang-Nano-9K/Nano-9K.html)
 
-- Tarjeta compatible Mega 2560
-  
-[https://ja-bots.com/producto/arduino-mega-2560-pro-mini/](https://ja-bots.com/producto/arduino-mega-2560-pro-mini/)
 
 
 
