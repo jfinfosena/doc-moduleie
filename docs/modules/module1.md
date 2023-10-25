@@ -6,7 +6,7 @@ draft: false
 ---
 
 
-## Módulo 01 - Aduino
+## Módulo 01 - Arduino
 
 ### Descripción
 
@@ -14,7 +14,7 @@ El módulo 01 se enfoca en el uso de diferentes dispositivos y herramientas de h
 
 Arduino™ MKR WiFi 1010: Esta tarjeta está equipada con WiFi y Bluetooth®, un microcontrolador ARM Cortex y un criptochip, lo que la hace una potente herramienta para el desarrollo de aplicaciones IoT. Cuenta con diversas características como pines digitales I/O, pines PWM, comunicación SPI, UART, I2C, I2S, pines de entrada y salida análoga, interrupciones externas, memoria flash y SRAM.
 
-Tarjeta compatible Mega 2560 versión PRO Mini: Esta tarjeta basada en el microcontrolador ATMega 2560 es una versión compacta que cuenta con una interfaz USB-TTL en lugar de un conector USB. Tiene características como 70 pines digitales I/O, 16 entradas análogas, 14 pines PWM y 4 UART bus.
+Tarjeta compatible Mega 2560 versión PRO Mini: Esta tarjeta basada en el microcontrolador ATMega 2560 es una versión compacta que cuenta con una interfaz USB-TTL en lugar de un conector USB. Tiene características como 70 pines digitales I/O, 16 entradas análogas, 14 pines PWM y 4 UART bus. (esta tarjeta es equivalente a un Arduino Mega pero pequeño).
 
 ### Diagramas esquemáticos
 
