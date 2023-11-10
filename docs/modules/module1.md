@@ -12,7 +12,7 @@ draft: false
 
 El módulo 01 se enfoca en el uso de diferentes dispositivos y herramientas de hardware para el desarrollo de proyectos de sistemas embebidos e IoT. Este módulo incluye dos componentes principales:
 
-Arduino™ MKR WiFi 1010: Esta tarjeta está equipada con WiFi y Bluetooth®, un microcontrolador ARM Cortex y un criptochip, lo que la hace una potente herramienta para el desarrollo de aplicaciones IoT. Cuenta con diversas características como pines digitales I/O, pines PWM, comunicación SPI, UART, I2C, I2S, pines de entrada y salida análoga, interrupciones externas, memoria flash y SRAM.
+Arduino™ MKR WiFi 1010: Esta tarjeta está equipada con WiFi y Bluetooth®, un microcontrolador ARM Cortex y un criptochip, lo que la hace una potente herramienta para el desarrollo de aplicaciones IoT. Cuenta con diversas características como pines digitales I/O, pines PWM, comunicación SPI, UART, I2C, I2S, pines de entrada y salida análoga, interrupciones externas, memoria flash y SRAM..
 
 #### Arduino™ MKR WiFi 1010 front
 ![img](https://store.arduino.cc/cdn/shop/products/ABX00023_03.front_9546fc94-9608-4ee8-94f4-62165312aa32_618x464.jpg?v=1630488949)
