@@ -10,13 +10,17 @@ draft: false
 
 ### Descripción
 
-El módulo 03 se enfoca en el uso de diferentes dispositivos y herramientas de hardware para el desarrollo de proyectos de sistemas embebidos e IoT. Este módulo incluye dos componentes principales:
+El módulo 03 se enfoca en el uso de diferentes dispositivos y herramientas de hardware para el desarrollo de proyectos de sistemas embebidos e IoT. Este módulo incluye un componente principal:
 
 El ESP32-C6 es un nuevo procesador lanzado por Espressif Systems. Este miembro de la familia ESP32 incorpora en un mismo SoC comunicaciones por Wi-Fi 6 de 2.4 GHz, Bluetooth 5 (LE) y por protocolo 802.15.41.
+
+![img](https://docs.espressif.com/projects/espressif-esp-dev-kits/en/latest/_images/esp32-c6-devkitc-1-isometric_v1.2.png)
 
 Entre sus especificaciones encontramos un procesador Single-Core RISC-V de 32 bits de altas prestaciones hasta 160 MHz y un procesador RISC-V de 32 bits de bajo consumo de hasta 20 MHz. Cuenta con una memoria ROM de 320KB, una SRAM de 512KB y la habitual memoria flash externa1. En cuanto a conexiones, el ESP32-C6 cuenta con 30 (QFN40) o 22 (QFN32) pines programables (GPIO).
 
 El ESP32-C6 destaca por su conectividad inalámbrica. Es compatible con Wi-Fi 6, Bluetooth 5 (BLE) y IEEE 802.15.41. Esto significa que puede comunicarse mediante Zigbee o Thread, ambos muy empleados en el ámbito de IoT.
+
+![img](https://www.espressif.com/sites/all/themes/espressif/images/esp32-c6/esp32-c6-overview.png)
 
 En cuanto a opciones para programación el ESP32-C6 será compatible con el ESP-IDF, el entorno de desarrollo Open Source de Espressif. Sin embargo, habrá que esperar a su versión v5.1, que actualmente se encuentra en desarrollo.
 
@@ -166,13 +170,13 @@ void loop() {
 
 ### Documentación adicional
 
-- Arduino™ MKR WiFi 1010
+- ESP32-C6-DevKitC-1 v1.2
   
-[https://store.arduino.cc/products/arduino-mkr-wifi-1010](https://store.arduino.cc/products/arduino-mkr-wifi-1010)
+[https://docs.espressif.com/projects/espressif-esp-dev-kits/en/latest/esp32c6/esp32-c6-devkitc-1/user_guide.html](https://docs.espressif.com/projects/espressif-esp-dev-kits/en/latest/esp32c6/esp32-c6-devkitc-1/user_guide.html)
 
-- Tarjeta compatible Mega 2560
+- Datasheet
   
-[https://ja-bots.com/producto/arduino-mega-2560-pro-mini/](https://ja-bots.com/producto/arduino-mega-2560-pro-mini/)
+[https://www.espressif.com/sites/default/files/documentation/esp32-c6_datasheet_en.pdf](https://www.espressif.com/sites/default/files/documentation/esp32-c6_datasheet_en.pdf)
 
 
 

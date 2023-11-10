@@ -10,9 +10,15 @@ draft: false
 
 ### Descripción
 
-El módulo 02 se enfoca en el uso de diferentes dispositivos y herramientas de hardware para el desarrollo de proyectos de sistemas embebidos e IoT. Este módulo incluye dos componentes principales:
+El módulo 02 se enfoca en el uso de diferentes dispositivos y herramientas de hardware para el desarrollo de proyectos de sistemas embebidos e IoT. Este módulo incluye un componente principal:
 
 Tang Nano 9K: es una placa de desarrollo basada en el chip FPGA Gowin GW1NR-9. Está equipada con un conector HDMI, un conector de interfaz de pantalla RGB, un conector de pantalla SPI, un flash SPI de 32 Mbit y 6 LED, para que los usuarios puedan usarlo para la verificación FPGA, risc-v . verificación de núcleo blando y verificación de funciones básicas de forma fácil y rápida. Sus unidades lógicas 8640 LUT4 no solo se pueden usar para el diseño de varios circuitos lógicos complejos, sino que también se pueden usar para ejecutar un núcleo blando PicoRV completo. También satisface diversas necesidades de los usuarios, como aprender FPGA, verificar el núcleo blando y realizar más diseños.
+
+#### Bloque de funciones integradas
+![img](https://wiki.sipeed.com/hardware/zh/tang/Tang-Nano-9K/assets/clip_image008.jpg)
+
+#### Mapa de pines 
+![img](https://wiki.sipeed.com/hardware/zh/tang/Tang-Nano-9K/assets/clip_image010.gif)
 
 Una matriz de puertas lógicas programable en campo (FPGA) es un circuito integrado (IC) que se puede programar después de la fabricación para realizar una amplia gama de funciones. Las FPGA están compuestas de una matriz de bloques lógicos configurables (CLB) e interconexiones programables. Los CLB se pueden configurar para realizar funciones lógicas básicas, como AND, OR y XOR, y las interconexiones se pueden programar para conectar los CLB entre sí de diferentes maneras. Esto permite que las FPGA se programen para implementar una amplia variedad de circuitos digitales, desde simples puertas lógicas hasta procesadores microcomputadores complejos.
 
