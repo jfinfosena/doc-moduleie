@@ -32,7 +32,6 @@ draft: false
 ## Miembro 3
 
 
-
 - **Nombre:** Nombre del Miembro 3
 - **Cargo:** Cargo del Miembro 3
 - **Correo Electrónico:** Correo electrónico del Miembro 3
