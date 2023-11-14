@@ -16,6 +16,8 @@ Teclado matricial 4x4: Un teclado matricial 4x4 es un dispositivo que permite la
 
 Los teclados matriciales 4x4 se utilizan en una amplia gama de aplicaciones, como dispositivos electrónicos de consumo, sistemas industriales y equipos de automatización.
 
+![img](https://candy-ho.com/wp-content/uploads/2016/09/238221-MLA20731670745_052016-O-4.jpg)
+
 Los componentes principales de un teclado matricial 4x4 son los siguientes:
 Matriz de teclas: La matriz de teclas es la parte física del teclado que contiene los botones.
 Circuito de matriz: El circuito de matriz se encarga de conectar las filas y columnas de la matriz de teclas a los pines del microcontrolador.
@@ -26,6 +28,8 @@ Conexiones de los teclados matriciales 4x4 suelen tener 8 pines de conexión. Cu
 Funcionamiento del teclado matricial 4x4: Cuando se presiona una tecla, se cierra un circuito entre una fila y una columna. El microcontrolador comprueba cada fila y columna para ver cuál de ellas está cerrada. Cuando el microcontrolador encuentra una fila y una columna cerradas, identifica la tecla que se ha presionado.
 
 Un pulsador es un dispositivo electromecánico que se utiliza para activar o desactivar un circuito eléctrico. Es un componente básico de muchos dispositivos electrónicos, como interruptores, alarmas y equipos industriales.
+
+![img](https://candy-ho.com/wp-content/uploads/2016/09/505221-MLA20731673542_052016-O-4.jpg)
 
 Los pulsadores se componen de dos partes principales: una carcasa y un elemento de accionamiento. La carcasa suele estar hecha de plástico o metal y proporciona un soporte para el elemento de accionamiento. El elemento de accionamiento es la parte que se presiona para activar el pulsador. Puede ser un botón, una palanca o un interruptor.
 
@@ -63,6 +67,8 @@ El tiempo de respuesta: El tiempo de respuesta debe ser adecuado para la aplicac
 La durabilidad: La durabilidad debe ser adecuada para la aplicación.
 
 Un DIP Switch de 4 posiciones: es un interruptor electromecánico que se utiliza para seleccionar entre 16 estados diferentes. Se compone de cuatro interruptores de deslizamiento que se pueden colocar en dos posiciones, "on" o "off".
+
+![img](https://candy-ho.com/wp-content/uploads/2018/01/DIP-4.jpg)
 
 Los DIP Switch de 4 posiciones se utilizan a menudo en dispositivos electrónicos para configurar parámetros o funciones. Por ejemplo, se pueden utilizar para seleccionar el idioma de una interfaz de usuario, el modo de funcionamiento de un dispositivo o la configuración de un circuito.
 
@@ -122,58 +128,35 @@ DIP Switch de 16 posiciones: Tiene dieciséis interruptores de deslizamiento.
 1. Ejemplo 1
 
 ```cpp copy
-/*
-  Analog input, analog output, serial output
+#include <Keypad.h>
 
-  Reads an analog input pin, maps the result to a range from 0 to 255 and uses
-  the result to set the pulse width modulation (PWM) of an output pin.
-  Also prints the results to the Serial Monitor.
+const byte ROWS = 4; //four rows
+const byte COLS = 4; //four columns
+//define the cymbols on the buttons of the keypads
+char hexaKeys[ROWS][COLS] = {
+  {'0','1','2','3'},
+  {'4','5','6','7'},
+  {'8','9','A','B'},
+  {'C','D','E','F'}
+};
+byte rowPins[ROWS] = {3, 2, 1, 0}; //connect to the row pinouts of the keypad
+byte colPins[COLS] = {7, 6, 5, 4}; //connect to the column pinouts of the keypad
 
-  The circuit:
-  - potentiometer connected to analog pin 0.
-    Center pin of the potentiometer goes to the analog pin.
-    side pins of the potentiometer go to +5V and ground
-  - LED connected from digital pin 9 to ground through 220 ohm resistor
+//initialize an instance of class NewKeypad
+Keypad customKeypad = Keypad( makeKeymap(hexaKeys), rowPins, colPins, ROWS, COLS); 
 
-  created 29 Dec. 2008
-  modified 9 Apr 2012
-  by Tom Igoe
-
-  This example code is in the public domain.
-
-  https://www.arduino.cc/en/Tutorial/BuiltInExamples/AnalogInOutSerial
-*/
-
-// These constants won't change. They're used to give names to the pins used:
-const int analogInPin = A0;  // Analog input pin that the potentiometer is attached to
-const int analogOutPin = 9; // Analog output pin that the LED is attached to
-
-int sensorValue = 0;        // value read from the pot
-int outputValue = 0;        // value output to the PWM (analog out)
-
-void setup() {
-  // initialize serial communications at 9600 bps:
+void setup(){
   Serial.begin(9600);
 }
-
-void loop() {
-  // read the analog in value:
-  sensorValue = analogRead(analogInPin);
-  // map it to the range of the analog out:
-  outputValue = map(sensorValue, 0, 1023, 0, 255);
-  // change the analog out value:
-  analogWrite(analogOutPin, outputValue);
-
-  // print the results to the Serial Monitor:
-  Serial.print("sensor = ");
-  Serial.print(sensorValue);
-  Serial.print("\t output = ");
-  Serial.println(outputValue);
-
-  // wait 2 milliseconds before the next loop for the analog-to-digital
-  // converter to settle after the last reading:
-  delay(2);
+  
+void loop(){
+  char customKey = customKeypad.getKey();
+  
+  if (customKey){
+    Serial.println(customKey);
+  }
 }
+
 ```
 
 1. Ejemplo 2

@@ -15,17 +15,19 @@ draft: false
 
 
 
-- **Nombre:** Nombre del Miembro 1
-- **Cargo:** Cargo del Miembro 1
-- **Correo Electrónico:** Correo electrónico del Miembro 1
+- **Nombre:** Jhon Fredy Valencia Gomez
+- **Cargo:** Instructor Investigador Experto
+- **Correo Electrónico:** jfvalenciag@sena.edu.co
+- **Regional / Centro:** Regional Antioquia / Centro De Tecnología De La Manufactura Avanzada
 
 ## Miembro 2
 
 
 
-- **Nombre:** Nombre del Miembro 2
-- **Cargo:** Cargo del Miembro 2
-- **Correo Electrónico:** Correo electrónico del Miembro 2
+- **Nombre:** Hugo Alberto Santana Mazo
+- **Cargo:** Instructor Investigador Experto
+- **Correo Electrónico:** hasantana@sena.edu.co
+- **Regional / Centro:** Regional Antioquia / Centro De Tecnología De La Manufactura Avanzada
 
 ## Miembro 3
 
