@@ -18,7 +18,8 @@ draft: false
 - 1.4. [Teclado y Mouse.](\Repositorios\Teclado_Mouse)
 - 1.5. [Osciloscopio 3 en 1.](\\Repositorios\Osciloscopio)
 - 1.6. [Fuente suicheada cuadruple.](\Repositorios\Fuente)
-- 1.7. [Componentes comunes, de interconexión y ensamblaje.](\Repositorios\comunes)
+- 1.7. [Analizador Lógico](\Repositorios\Analizador)
+- 1.8. [Componentes comunes, de interconexión y ensamblaje.](\Repositorios\comunes)
 
 ### 2. ARDUINO:.
 - 2.1. [Arduino™ MKR WiFi 1010.](\Repositorios\MKR_WIFI_1010)
