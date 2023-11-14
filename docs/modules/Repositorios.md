@@ -5,7 +5,7 @@ sidebar_position: 21
 draft: false
 ---
 
-
+<!-- 
 ![Encabezado](https://firebasestorage.googleapis.com/v0/b/modulo-b3e1a.appspot.com/o/General%2Fimagenes%2Flogo%20sena%202.png?alt=media&token=f8400ade-f50e-4175-8ff1-d69a8bc9a180&_gl=1*16uk2ow*_ga*MTE3MTQwMjUxOS4xNjk2MjYzMDI3*_ga_CW55HF8NVT*MTY5ODk3NTI5MS41LjEuMTY5ODk3NTgyNy42MC4wLjA.)
 
 # **REPOSITORIO TÉCNICO PROYECTO AXÓN SCPS-10974.**
@@ -157,4 +157,4 @@ draft: false
 
 ### 21. DRIVER TRANSISTOR IGBT.
 - 21.1. [Optoacoplador HCPL3120.](\Repositorios\HCPL3120)
-- 21.2. [Transistor GT50JR22.](\Repositorios\GT50JR22)
+- 21.2. [Transistor GT50JR22.](\Repositorios\GT50JR22) -->
