@@ -1,18 +1,20 @@
 ---
 title: Repositorios
 hide_title: true
-sidebar_position: 21
+sidebar_position: 0
 draft: false
 ---
 
-<!-- 
+
 ![Encabezado](https://firebasestorage.googleapis.com/v0/b/modulo-b3e1a.appspot.com/o/General%2Fimagenes%2Flogo%20sena%202.png?alt=media&token=f8400ade-f50e-4175-8ff1-d69a8bc9a180&_gl=1*16uk2ow*_ga*MTE3MTQwMjUxOS4xNjk2MjYzMDI3*_ga_CW55HF8NVT*MTY5ODk3NTI5MS41LjEuMTY5ODk3NTgyNy42MC4wLjA.)
 
 # **REPOSITORIO TÉCNICO PROYECTO AXÓN SCPS-10974.**
 ## ÍNDICE DE COMPONENTES POR MÓDULOS:
 
-### 1. PLATAFORMA:.
-- 1.1. [Planos generales klr.](docs\modules\Repositorios\Planos.md)
+### 1. PLATAFORMA:
+
+- 1.1. [Planos generales](docs\Repositorios\Planos.md)
+
 <!-- - 1.2. [Beelink SER5 Pro.](\Repositorios\Micro_PC)
 - 1.3. [Monitor.](\Repositorios\Monitor)
 - 1.4. [Teclado y Mouse.](\Repositorios\Teclado_Mouse)
