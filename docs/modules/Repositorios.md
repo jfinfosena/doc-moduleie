@@ -12,11 +12,11 @@ draft: false
 ## ÍNDICE DE COMPONENTES POR MÓDULOS:
 
 ### 1. PLATAFORMA:.
-- 1.1. [Planos generales.](\Repositorios\Planos)
-- 1.2. [Beelink SER5 Pro.](\Repositorios\Micro_PC)
+- 1.1. [Planos generales.](docs\modules\Repositorios\Planos.md)
+<!-- - 1.2. [Beelink SER5 Pro.](\Repositorios\Micro_PC)
 - 1.3. [Monitor.](\Repositorios\Monitor)
 - 1.4. [Teclado y Mouse.](\Repositorios\Teclado_Mouse)
-- 1.5. [Osciloscopio 3 en 1.](\\Repositorios\Osciloscopio)
+- 1.5. [Osciloscopio 3 en 1.](\Repositorios\Osciloscopio)
 - 1.6. [Fuente suicheada cuadruple.](\Repositorios\Fuente)
 - 1.7. [Analizador Lógico](\Repositorios\Analizador)
 - 1.8. [Componentes comunes, de interconexión y ensamblaje.](\Repositorios\comunes)
@@ -36,7 +36,7 @@ draft: false
 - 4.2. [STM32H750VBT6.](\Repositorios\STM32H750VBT6)
 - 4.3. [STM8STM32 STLINK.](\Repositorios\STM8STM32)
 
-### 5. RASPBERRY PI.
+### 5. RASPBERRY PI.A
 - 5.1. [Pico W.](\Repositorios\Pico) 
 - 5.2. [Orange Pi 5 8GB RAM.](\Repositorios\Orange)
 - 5.3. [Unidad de estado sólido SSD.](\Repositorios\SSD)
@@ -158,4 +158,4 @@ draft: false
 
 ### 21. DRIVER TRANSISTOR IGBT.
 - 21.1. [Optoacoplador HCPL3120.](\Repositorios\HCPL3120)
-- 21.2. [Transistor GT50JR22.](\Repositorios\GT50JR22)
+- 21.2. [Transistor GT50JR22.](\Repositorios\GT50JR22) -->
