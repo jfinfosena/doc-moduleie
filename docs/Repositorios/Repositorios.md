@@ -14,34 +14,33 @@ draft: false
 ### 1. PLATAFORMA:
 
 - 1.1. [Planos generales](docs\Repositorios\Planos.md)
-
-<!-- - 1.2. [Beelink SER5 Pro.](\Repositorios\Micro_PC)
-- 1.3. [Monitor.](\Repositorios\Monitor)
-- 1.4. [Teclado y Mouse.](\Repositorios\Teclado_Mouse)
-- 1.5. [Osciloscopio 3 en 1.](\Repositorios\Osciloscopio)
-- 1.6. [Fuente suicheada cuadruple.](\Repositorios\Fuente)
-- 1.7. [Analizador Lógico](\Repositorios\Analizador)
-- 1.8. [Componentes comunes, de interconexión y ensamblaje.](\Repositorios\comunes)
+- 1.2. [Beelink SER5 Pro.](docs\Repositorios\Micro_PC.md)
+- 1.3. [Monitor.](docs\Repositorios\Monitor.md)
+- 1.4. [Teclado y Mouse.](docs\Repositorios\Teclado_Mouse.md)
+- 1.5. [Osciloscopio 3 en 1.](docs\Repositorios\Osciloscopio.md)
+- 1.6. [Fuente suicheada cuadruple.](docs\Repositorios\Fuente.md)
+- 1.7. [Analizador Lógico](docs\Repositorios\Analizador.md)
+- 1.8. [Componentes comunes, de interconexión y ensamblaje.](docs\Repositorios\comunes.md)
 
 ### 2. ARDUINO:.
-- 2.1. [Arduino™ MKR WiFi 1010.](\Repositorios\MKR_WIFI_1010)
-- 2.2. [Mega 2560 versión PRO Mini.](\Repositorios\Mega_2560)
+- 2.1. [Arduino™ MKR WiFi 1010.](docs\Repositorios\MKR_WIFI_1010.md)
+- 2.2. [Mega 2560 versión PRO Mini.](docs\Repositorios\Mega_2560.md)
 
 ### 3. ESP-32.
-- 3.1. [ESP32-C6-DevKitM-1.](\Repositorios\C6-DevKitM-1)
-- 3.2. [ESP32-C6-DevKitC-1.](\Repositorios\C6-DevKitC-1)
-- 3.3. [ESP32-C6.](\Repositorios\C6)
-- 3.4. [ESP32-H2-DevKitM-1.](\Repositorios\H2-DevKitM-1)
+- 3.1. [ESP32-C6-DevKitM-1.](docs\Repositorios\C6-DevKitM-1.md)
+- 3.2. [ESP32-C6-DevKitC-1.](docs\Repositorios\C6-DevKitC-1.md)
+- 3.3. [ESP32-C6.](docs\Repositorios\C6.md)
+- 3.4. [ESP32-H2-DevKitM-1.](\docs\Repositorios\H2-DevKitM-1.md)
 
 ### 4. STM-32.
-- 4.1. [STM32 Nucleo-F411RE.](\Repositorios\Nucleo-F411RE) 
-- 4.2. [STM32H750VBT6.](\Repositorios\STM32H750VBT6)
-- 4.3. [STM8STM32 STLINK.](\Repositorios\STM8STM32)
+- 4.1. [STM32 Nucleo-F411RE.](docs\Repositorios\Nucleo-F411RE.md) 
+- 4.2. [STM32H750VBT6.](docs\Repositorios\STM32H750VBT6.md)
+- 4.3. [STM8STM32 STLINK.](docs\Repositorios\STM8STM32.md)
 
 ### 5. RASPBERRY PI.A
-- 5.1. [Pico W.](\Repositorios\Pico) 
-- 5.2. [Orange Pi 5 8GB RAM.](\Repositorios\Orange)
-- 5.3. [Unidad de estado sólido SSD.](\Repositorios\SSD)
+- 5.1. [Pico W.](docs\Repositorios\Pico.md) 
+<!-- - 5.2. [Orange Pi 5 8GB RAM.](docs\Repositorios\Orange.md)
+- 5.3. [Unidad de estado sólido SSD.](docs\Repositorios\SSD.md)
 
 ### 6. MICROCHIP.
 - 6.1. [SAM D21.](\Repositorios\SAM_D21)
