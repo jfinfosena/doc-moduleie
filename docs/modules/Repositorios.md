@@ -12,7 +12,7 @@ draft: false
 ## ÍNDICE DE COMPONENTES POR MÓDULOS:
 
 ### 1. PLATAFORMA:.
-- 1.1. [Planos generales.](docs\modules\Repositorios\Planos.md)
+- 1.1. [Planos generales klr.](docs\modules\Repositorios\Planos.md)
 <!-- - 1.2. [Beelink SER5 Pro.](\Repositorios\Micro_PC)
 - 1.3. [Monitor.](\Repositorios\Monitor)
 - 1.4. [Teclado y Mouse.](\Repositorios\Teclado_Mouse)
