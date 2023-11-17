@@ -39,16 +39,16 @@ draft: false
 
 ### 5. RASPBERRY PI.A
 - 5.1. [Pico W.](docs\Repositorios\Pico.md) 
-<!-- - 5.2. [Orange Pi 5 8GB RAM.](docs\Repositorios\Orange.md)
+- 5.2. [Orange Pi 5 8GB RAM.](docs\Repositorios\Orange.md)
 - 5.3. [Unidad de estado sólido SSD.](docs\Repositorios\SSD.md)
 
 ### 6. MICROCHIP.
-- 6.1. [SAM D21.](\Repositorios\SAM_D21)
-- 6.2. [EV10N93A - PIC32CM MC00.](\Repositorios\EV10N93A) 
+- 6.1. [SAM D21.](docs\Repositorios\SAM_D21.md)
+- 6.2. [EV10N93A - PIC32CM MC00.](docs\Repositorios\EV10N93A.md) 
 
 ### 7. MICROCHIP.
-- 7.1. [Tang Nano-Placa de desarrollo 9K FPGA.](\Repositorios\Tang)
-
+- 7.1. [Tang Nano-Placa de desarrollo 9K FPGA.](docs\Repositorios\Tang_Nano.md)
+<!-- 
 ### 8. PROTOCOLOS IoT:.
 - 8.1. [Antena LORA.](\Repositorios\Antena)
 - 8.2. [Módulo inalámbrico LoRa LLCC68.](\Repositorios\LLCC68)
