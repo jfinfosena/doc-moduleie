@@ -46,19 +46,19 @@ draft: false
 - 6.1. [SAM D21.](docs\Repositorios\SAM_D21.md)
 - 6.2. [EV10N93A - PIC32CM MC00.](docs\Repositorios\EV10N93A.md) 
 
-### 7. MICROCHIP.
+### 7. FPGA.
 - 7.1. [Tang Nano-Placa de desarrollo 9K FPGA.](docs\Repositorios\Tang_Nano.md)
-<!-- 
-### 8. PROTOCOLOS IoT:.
-- 8.1. [Antena LORA.](\Repositorios\Antena)
-- 8.2. [Módulo inalámbrico LoRa LLCC68.](\Repositorios\LLCC68)
-- 8.3. [Seeed Studio XIAO ESP32C3.](\Repositorios\ESP32C3)
-- 8.4. [Seeed Studio XIAO nRF52840.](\Repositorios\nRF52840)
-- 8.5. [Seeed Studio XIAO nRF52840 Sense.](\Repositorios\Sense)
-- 8.6. [Seeeduino-microcontrolador tipo C XIAO. Tipo 1.](\Repositorios\C_XIAO)
-- 8.7. [XIAO Expansion Board.](\Repositorios\IAO_expansion_Board)
-- 8.8. [XIAO Grove Shield.](\Repositorios\XIAO_Grove_Shield)
 
+### 8. PROTOCOLOS IoT:.
+- 8.1. [Antena LORA.](docs\Repositorios\Antena.md)
+- 8.2. [Módulo inalámbrico LoRa LLCC68.](docs\Repositorios\LLCC68.md)
+- 8.3. [Seeed Studio XIAO ESP32C3.](docs\Repositorios\ESP32C3.md)
+- 8.4. [Seeed Studio XIAO nRF52840.](docs\Repositorios\nRF52840.md)
+- 8.5. [Seeed Studio XIAO nRF52840 Sense.](docs\Repositorios\Sense.md)
+- 8.6. [Seeeduino-microcontrolador tipo C XIAO. SAMD21.](docs\Repositorios\XIAO.md)
+- 8.7. [XIAO Expansion Board.](docs\Repositorios\IAO_expansion_Board.md)
+- 8.8. [XIAO Grove Shield.](docs\Repositorios\XIAO_Grove_Shield.md)
+<!-- 
 ### 9. ENTRADAS DIGITALES.
 - 9.1. [Teclado matricial.](\Repositorios\Teclado_Matricial)
 - 9.2. [Pulsador.](\Repositorios\Pulsador)
