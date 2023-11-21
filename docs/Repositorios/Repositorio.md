@@ -58,22 +58,22 @@ draft: false
 - 8.6. [Seeeduino-microcontrolador tipo C XIAO. SAMD21.](docs\Repositorios\XIAO.md)
 - 8.7. [XIAO Expansion Board.](docs\Repositorios\IAO_expansion_Board.md)
 - 8.8. [XIAO Grove Shield.](docs\Repositorios\XIAO_Grove_Shield.md)
-<!-- 
+
 ### 9. ENTRADAS DIGITALES.
-- 9.1. [Teclado matricial.](\Repositorios\Teclado_Matricial)
-- 9.2. [Pulsador.](\Repositorios\Pulsador)
-- 9.3. [Suiche 4 posiciones.](\Repositorios\Suiche_4_Pos)
+- 9.1. [Teclado matricial.](docs\Repositorios\Teclado_Matricial.md)
+- 9.2. [Pulsador.](docs\Repositorios\Pulsador.md)
+- 9.3. [Suiche 4 posiciones.](docs\Repositorios\Suiche_4_Pos.md)
 
 ### 10. SALIDAS DIGITALES:.
-- 10.1. [LED RGB 5mm Cátodo común.](https://firebasestorage.googleapis.com/v0/b/modulo-b3e1a.appspot.com/o/General%2Fimagenes%2Fled%20rgb%20catodo%20comun.png?alt=media&token=a6bcc586-986b-414d-86bf-4ad2dab2bf6d&_gl=1*eht9o9*_ga*MTE3MTQwMjUxOS4xNjk2MjYzMDI3*_ga_CW55HF8NVT*MTY5ODk1OTI0NC40LjEuMTY5ODk1OTM3NC41MS4wLjA.)
-- 10.2. [Módulo LED WS2812 5050 RGB.](\Repositorios\WS2812)
-- 10.3. [Display 7 seg. x 4 A.C. rojO.](\Repositorios\Display7-4AC)
-- 10.4. [Display 7 segmentos ánodo común verde.](\Repositorios\DisplayAC)
-- 10.5. [Display 7 seg. cátodo común verde.](\Repositorios\DisplayCC)
-- 10.6. [Transistor 2N2222.](\Repositorios\2N2222)
-- 10.7. [LED 5mm Alta Intensidad Verde.](https://firebasestorage.googleapis.com/v0/b/modulo-b3e1a.appspot.com/o/General%2Fimagenes%2Fled%205%20mm%20alta%20intensidad%20verde.png?alt=media&token=d1607456-2a87-4fce-9e6e-5d00fd3dc848&_gl=1*vcwnlq*_ga*MTE3MTQwMjUxOS4xNjk2MjYzMDI3*_ga_CW55HF8NVT*MTY5ODk1OTI0NC40LjEuMTY5ODk1OTY2OS41Mi4wLjA.)
+- 10.1. [LED RGB 5mm Cátodo común.](docs\Repositorios\LED_RGB.md)
+- 10.2. [Módulo LED WS2812 5050 RGB.](docs\Repositorios\WS2812.md)
+- 10.3. [Display 7 seg. x 4 A.C. rojO.](docs\Repositorios\Display7-4AC.md)
+- 10.4. [Display 7 segmentos ánodo común verde.](docs\Repositorios\DisplayAC.md)
+- 10.5. [Display 7 seg. cátodo común verde.](docs\Repositorios\DisplayCC.md)
+- 10.6. [Transistor 2N2222.](docs\Repositorios\2N2222.md)
+- 10.7. [LED 5mm Alta Intensidad Verde.](docs\Repositorios\LED_HI.md)
 
-### 11. LCD:.
+<!-- ### 11. LCD:.
 - 11.1. [Display LCD caracteres 4x20 Azul.](\Repositorios\LCD4x20AzUL)
 - 11.2. [Conversor I2C para LCDs 16x2-20x4.](\Repositorios\I2C-LCD)
 - 11.3. [Módulo Display OLED 1.3 pulgadas.](\Repositorios\OLED1.3In)
