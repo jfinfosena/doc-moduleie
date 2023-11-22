@@ -26,13 +26,13 @@ draft: false
 - 2.1. [Arduino™ MKR WiFi 1010.](../Datasheets/MKR_WIFI_1010.md)
 - 2.2. [Mega 2560 versión PRO Mini.](../Datasheets/Mega_2560.md)
 
-<!-- ### 3. ESP-32.
+### 3. ESP-32.
 - 3.1. [ESP32-C6-DevKitM-1.](../Datasheets/C6-DevKitM-1.md)
 - 3.2. [ESP32-C6-DevKitC-1.](../Datasheets/C6-DevKitC-1.md)
 - 3.3. [ESP32-C6.](../Datasheets/C6.md)
 - 3.4. [ESP32-H2-DevKitM-1.](\../Datasheets/H2-DevKitM-1.md)
 
-### 4. STM-32.
+<!-- ### 4. STM-32.
 - 4.1. [STM32 Nucleo-F411RE.](../Datasheets/Nucleo-F411RE.md) 
 - 4.2. [STM32H750VBT6.](../Datasheets/STM32H750VBT6.md)
 - 4.3. [STM8STM32 STLINK.](../Datasheets/STM8STM32.md) -->
