@@ -75,7 +75,7 @@ draft: false
 
 ### 11. LCD:.
 - 11.1. [Display LCD caracteres 4x20 Azul.](docs\Repositorios\LCD4x20Azul.md)
-<!-- - 11.2. [Conversor I2C para LCDs 16x2-20x4.](\Repositorios\I2C-LCD)
+<!-- - 11.2. [Conversor I2C para LCDs 16x2-20x4.](docs\Repositorios\I2C-LCD.md)
 - 11.3. [Módulo Display OLED 1.3 pulgadas.](\Repositorios\OLED1.3In)
 - 11.4. [Módulo OLED de 0,91.](\Repositorios\OLED0.91In)
 - 11.5. [WS2812 LED 5050 RGB 8x8 64 LED.](\Repositorios\WS2812)
@@ -159,4 +159,4 @@ draft: false
 
 ### 21. DRIVER TRANSISTOR IGBT.
 - 21.1. [Optoacoplador HCPL3120.](\Repositorios\HCPL3120)
-- 21.2. [Transistor GT50JR22.](\Repositorios\GT50JR22) -->
+- 21.2. [Transistor GT50JR22.](\Repositorios\GT50JR22) --> -->
