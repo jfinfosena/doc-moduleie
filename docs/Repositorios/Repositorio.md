@@ -22,7 +22,7 @@ draft: false
 - 1.7. [Analizador Lógico](../Datasheets/Analizador.md)
 - 1.8. [Componentes comunes, de interconexión y ensamblaje.](../Datasheets/comunes.md)
 
-<!-- ### 2. ARDUINO:.
+### 2. ARDUINO:.
 - 2.1. [Arduino™ MKR WiFi 1010.](../Datasheets/MKR_WIFI_1010.md)
 - 2.2. [Mega 2560 versión PRO Mini.](../Datasheets/Mega_2560.md)
 
@@ -37,7 +37,7 @@ draft: false
 - 4.2. [STM32H750VBT6.](../Datasheets/STM32H750VBT6.md)
 - 4.3. [STM8STM32 STLINK.](../Datasheets/STM8STM32.md)
 
-### 5. RASPBERRY PI.A
+<!-- ### 5. RASPBERRY PI.A
 - 5.1. [Pico W.](../Datasheets/Pico.md) 
 - 5.2. [Orange Pi 5 8GB RAM.](../Datasheets/Orange.md)
 - 5.3. [Unidad de estado sólido SSD.](../Datasheets/SSD.md)
