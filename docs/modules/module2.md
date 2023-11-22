@@ -107,100 +107,47 @@ Desarrollo de un sistema integrado para una aplicación de control: Una FPGA se 
 1. Ejemplo 1
 
 ```cpp copy
-/*
-  Analog input, analog output, serial output
 
-  Reads an analog input pin, maps the result to a range from 0 to 255 and uses
-  the result to set the pulse width modulation (PWM) of an output pin.
-  Also prints the results to the Serial Monitor.
+module module_name 
+#(parameter)
+(port) ;
+    Function description;
+endmodule
 
-  The circuit:
-  - potentiometer connected to analog pin 0.
-    Center pin of the potentiometer goes to the analog pin.
-    side pins of the potentiometer go to +5V and ground
-  - LED connected from digital pin 9 to ground through 220 ohm resistor
-
-  created 29 Dec. 2008
-  modified 9 Apr 2012
-  by Tom Igoe
-
-  This example code is in the public domain.
-
-  https://www.arduino.cc/en/Tutorial/BuiltInExamples/AnalogInOutSerial
-*/
-
-// These constants won't change. They're used to give names to the pins used:
-const int analogInPin = A0;  // Analog input pin that the potentiometer is attached to
-const int analogOutPin = 9; // Analog output pin that the LED is attached to
-
-int sensorValue = 0;        // value read from the pot
-int outputValue = 0;        // value output to the PWM (analog out)
-
-void setup() {
-  // initialize serial communications at 9600 bps:
-  Serial.begin(9600);
-}
-
-void loop() {
-  // read the analog in value:
-  sensorValue = analogRead(analogInPin);
-  // map it to the range of the analog out:
-  outputValue = map(sensorValue, 0, 1023, 0, 255);
-  // change the analog out value:
-  analogWrite(analogOutPin, outputValue);
-
-  // print the results to the Serial Monitor:
-  Serial.print("sensor = ");
-  Serial.print(sensorValue);
-  Serial.print("\t output = ");
-  Serial.println(outputValue);
-
-  // wait 2 milliseconds before the next loop for the analog-to-digital
-  // converter to settle after the last reading:
-  delay(2);
-}
 ```
 
 1. Ejemplo 2
 
 ```cpp copy
-/*
-  Blink
 
-  Turns an LED on for one second, then off for one second, repeatedly.
+module led (
+    input sys_clk,
+    input sys_rst_n,
+    output reg [2:0] led // 110 B, 101 R, 011 G
+);
 
-  Most Arduinos have an on-board LED you can control. On the UNO, MEGA and ZERO
-  it is attached to digital pin 13, on MKR1000 on pin 6. LED_BUILTIN is set to
-  the correct LED pin independent of which board is used.
-  If you want to know what pin the on-board LED is connected to on your Arduino
-  model, check the Technical Specs of your board at:
-  https://www.arduino.cc/en/Main/Products
+reg [23:0] counter;
 
-  modified 8 May 2014
-  by Scott Fitzgerald
-  modified 2 Sep 2016
-  by Arturo Guadalupi
-  modified 8 Sep 2016
-  by Colby Newman
+always @(posedge sys_clk or negedge sys_rst_n) begin
+    if (!sys_rst_n)
+        counter <= 24'd0;
+    else if (counter < 24'd1199_9999)       // 0.5s delay
+        counter <= counter + 1'b1;
+    else
+        counter <= 24'd0;
+end
 
-  This example code is in the public domain.
+always @(posedge sys_clk or negedge sys_rst_n) begin
+    if (!sys_rst_n)
+        led <= 3'b110;
+    else if (counter == 24'd1199_9999)       // 0.5s delay
+        led[2:0] <= {led[1:0],led[2]};
+    else
+        led <= led;
+end
 
-  https://www.arduino.cc/en/Tutorial/BuiltInExamples/Blink
-*/
-
-// the setup function runs once when you press reset or power the board
-void setup() {
-  // initialize digital pin LED_BUILTIN as an output.
-  pinMode(LED_BUILTIN, OUTPUT);
-}
-
-// the loop function runs over and over again forever
-void loop() {
-  digitalWrite(LED_BUILTIN, HIGH);   // turn the LED on (HIGH is the voltage level)
-  delay(1000);                       // wait for a second
-  digitalWrite(LED_BUILTIN, LOW);    // turn the LED off by making the voltage LOW
-  delay(1000);                       // wait for a second
-}
+endmodule  
+  
 ```
 
 ### Documentación adicional
