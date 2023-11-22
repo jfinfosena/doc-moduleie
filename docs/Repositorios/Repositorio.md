@@ -73,9 +73,9 @@ draft: false
 - 10.6. [Transistor 2N2222.](docs\Repositorios\2N2222.md)
 - 10.7. [LED 5mm Alta Intensidad Verde.](docs\Repositorios\LED_HI.md)
 
-<!-- ### 11. LCD:.
-- 11.1. [Display LCD caracteres 4x20 Azul.](\Repositorios\LCD4x20AzUL)
-- 11.2. [Conversor I2C para LCDs 16x2-20x4.](\Repositorios\I2C-LCD)
+### 11. LCD:.
+- 11.1. [Display LCD caracteres 4x20 Azul.](docs\Repositorios\LCD4x20Azul.md)
+<!-- - 11.2. [Conversor I2C para LCDs 16x2-20x4.](\Repositorios\I2C-LCD)
 - 11.3. [Módulo Display OLED 1.3 pulgadas.](\Repositorios\OLED1.3In)
 - 11.4. [Módulo OLED de 0,91.](\Repositorios\OLED0.91In)
 - 11.5. [WS2812 LED 5050 RGB 8x8 64 LED.](\Repositorios\WS2812)
