@@ -76,18 +76,18 @@ draft: false
 ### 11. LCD:.
 - 11.1. [Display LCD caracteres 4x20 Azul.](../Datasheets/LCD4x20Azul.md) 
 - 11.2. [Conversor I2C para LCDs 16x2-20x4.](../Datasheets/I2C-LCD.md)
-- 11.3. [Módulo Display OLED 1.3 pulgadas.](\Repositorios\OLED1.3In.md)
-- 11.4. [Módulo OLED de 0,91.](\Repositorios\OLED0.91In.md)
-- 11.5. [WS2812 LED 5050 RGB 8x8 64 LED.](\Repositorios\WS2812.md)
+- 11.3. [Módulo Display OLED 1.3 pulgadas.](../Datasheets/OLED1.3In.md)
+- 11.4. [Módulo OLED de 0,91.](../Datasheets/OLED0.91In.md)
+- 11.5. [WS2812 LED 5050 RGB 8x8 64 LED.](../Datasheets/WS2812.md)
 
 ### 12. RELÉ:.
-- 12.1. [Tarjeta con 4 relevos optocoplada 5V.](\Repositorios\4RELOPT.md)
-- 12.2. [Driver Dual Motor DC TB6612FNG.](\Repositorios\TB6612FNG.md)
-- 12.3. [Driver Darlington de corriente de 8 canales.](\Repositorios\DriverDRL8Canales.md)
-- 12.4. [Módulo de relé para Arduino.](\Repositorios\REL_Arduino.md)
+- 12.1. [Tarjeta con 4 relevos optocoplada 5V.](../Datasheets/4RELOPT.md)
+- 12.2. [Driver Dual Motor DC TB6612FNG.](../Datasheets/TB6612FNG.md)
+- 12.3. [Driver Darlington de corriente de 8 canales.](../Datasheets/DriverDRL8Canales.md)
+- 12.4. [Módulo de relé para Arduino.](../Datasheets/REL_Arduino.md)
 
 ### 13. RFID:.
-- 13.1. [Kit Lector/Escritor RFID MFRC522.](\Repositorios\MFRC522.md)
+- 13.1. [Kit Lector/Escritor RFID MFRC522.](../Datasheets/MFRC522.md)
 - 13.2. [Llavero RFiD 13.56MHz.](../Datasheets/RFiD.md)
 
 ### 14. MOTOR PAP:.
