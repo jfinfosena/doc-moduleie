@@ -11,18 +11,18 @@ draft: false
 # **REPOSITORIO TÉCNICO PROYECTO AXÓN SCPS-10974.**
 ## ÍNDICE DE COMPONENTES POR MÓDULOS:
 
-### 1. PLATAFORMA:
+<!-- ### 1. PLATAFORMA:
 
 - 1.1. [Planos generales](../Datasheet/Planos)
 - 1.2. [Beelink SER5 Pro.](../Datasheet/Micro_PC)
-<!-- - 1.3. [Monitor.](../Datasheet/Monitor)
+- 1.3. [Monitor.](../Datasheet/Monitor)
 - 1.4. [Teclado y Mouse.](../Datasheet/Teclado_Mouse)
 - 1.5. [Osciloscopio 3 en 1.](../Datasheet/Osciloscopio)
 - 1.6. [Fuente suicheada cuadruple.](../Datasheet/Fuente)
 - 1.7. [Analizador Lógico](../Datasheet/Analizador)
 - 1.8. [Componentes comunes, de interconexión y ensamblaje.](../Datasheet/comunes) -->
-
-<!-- ### 2. ARDUINO:.
+<!-- 
+### 2. ARDUINO:.
 - 2.1. [Arduino™ MKR WiFi 1010.](../Datasheet/MKR_WIFI_1010 )
 - 2.2. [Mega 2560 versión PRO Mini.](../Datasheet/Mega_2560 )
 
