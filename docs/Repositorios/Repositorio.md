@@ -29,7 +29,7 @@ draft: false
 ### 3. ESP-32.
 <!-- - 3.1. [ESP32-C6-DevKitM-1.](../Datasheets/C6-DevKitM-1.md)
 - 3.2. [ESP32-C6-DevKitC-1.](../Datasheets/C6-DevKitC-1.md) -->
-- 3.3. [ESP32-C6.](../Datasheets/C6.md)
+<!-- - 3.3. [ESP32-C6.](../Datasheets/C6.md) -->
 - 3.4. [ESP32-H2-DevKitM-1.](\../Datasheets/H2-DevKitM-1.md)
 
 <!-- ### 4. STM-32.
