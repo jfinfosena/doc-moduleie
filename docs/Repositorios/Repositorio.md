@@ -30,14 +30,14 @@ draft: false
 - 3.1. [ESP32-C6-DevKitM-1.](../Datasheets/C6-DevKitM-1.md)
 - 3.2. [ESP32-C6-DevKitC-1.](../Datasheets/C6-DevKitC-1.md)
 - 3.3. [ESP32-C6.](../Datasheets/C6.md)
-<!-- - 3.4. [ESP32-H2-DevKitM-1.](\../Datasheets/H2-DevKitM-1.md) -->
+- 3.4. [ESP32-H2-DevKitM-1.](../Datasheets/H2-DevKitM-1.md)
 
-<!-- ### 4. STM-32.
+### 4. STM-32.
 - 4.1. [STM32 Nucleo-F411RE.](../Datasheets/Nucleo-F411RE.md) 
 - 4.2. [STM32H750VBT6.](../Datasheets/STM32H750VBT6.md)
-- 4.3. [STM8STM32 STLINK.](../Datasheets/STM8STM32.md) -->
+- 4.3. [STM8STM32 STLINK.](../Datasheets/STM8STM32.md)
 
-<!-- ### 5. RASPBERRY PI.A
+### 5. RASPBERRY PI.A
 - 5.1. [Pico W.](../Datasheets/Pico.md) 
 - 5.2. [Orange Pi 5 8GB RAM.](../Datasheets/Orange.md)
 - 5.3. [Unidad de estado sólido SSD.](../Datasheets/SSD.md)
@@ -71,7 +71,7 @@ draft: false
 - 10.4. [Display 7 segmentos ánodo común verde.](../Datasheets/DisplayAC.md)
 - 10.5. [Display 7 seg. cátodo común verde.](../Datasheets/DisplayCC.md)
 - 10.6. [Transistor 2N2222.](../Datasheets/2N2222.md)
-- 10.7. [LED 5mm Alta Intensidad Verde.](../Datasheets/LED_HI.md) -->
+- 10.7. [LED 5mm Alta Intensidad Verde.](../Datasheets/LED_HI.md)
 
 <!-- ### 11. LCD:.
 - 11.1. [Display LCD caracteres 4x20 Azul.](../Datasheets/LCD4x20Azul.md) -->
