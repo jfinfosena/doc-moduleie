@@ -22,7 +22,7 @@ draft: false
 - 1.7. [Analizador Lógico](../Datasheets/Analizador.md)
 - 1.8. [Componentes comunes, de interconexión y ensamblaje.](../Datasheets/comunes.md)
 
-### 2. ARDUINO:.
+<!-- ### 2. ARDUINO:.
 - 2.1. [Arduino™ MKR WiFi 1010.](../Datasheets/MKR_WIFI_1010.md)
 - 2.2. [Mega 2560 versión PRO Mini.](../Datasheets/Mega_2560.md)
 
@@ -71,7 +71,7 @@ draft: false
 - 10.4. [Display 7 segmentos ánodo común verde.](../Datasheets/DisplayAC.md)
 - 10.5. [Display 7 seg. cátodo común verde.](../Datasheets/DisplayCC.md)
 - 10.6. [Transistor 2N2222.](../Datasheets/2N2222.md)
-- 10.7. [LED 5mm Alta Intensidad Verde.](../Datasheets/LED_HI.md)
+- 10.7. [LED 5mm Alta Intensidad Verde.](../Datasheets/LED_HI.md) -->
 
 <!-- ### 11. LCD:.
 - 11.1. [Display LCD caracteres 4x20 Azul.](../Datasheets/LCD4x20Azul.md) -->
