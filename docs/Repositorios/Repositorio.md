@@ -76,8 +76,8 @@ draft: false
 ### 11. LCD:.
 - 11.1. [Display LCD caracteres 4x20 Azul.](../Datasheets/LCD4x20Azul.md) 
 - 11.2. [Conversor I2C para LCDs 16x2-20x4.](../Datasheets/I2C-LCD.md)
-- 11.3. [Módulo Display OLED 1.3 pulgadas.](../Datasheets/OLED1.3In.md)
-- 11.4. [Módulo OLED de 0,91.](../Datasheets/OLED0.91In.md)
+- 11.3. [Módulo Display OLED 1.3 pulgadas.](../Datasheets/OLED1-3In.md)
+- 11.4. [Módulo OLED de 0,91.](../Datasheets/OLED0-91In.md)
 - 11.5. [WS2812 LED 5050 RGB 8x8 64 LED.](../Datasheets/WS2812.md)
 
 ### 12. RELÉ:.
