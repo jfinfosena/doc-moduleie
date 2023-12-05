@@ -1,5 +1,5 @@
 ---
-title: MKR WIFI
+title: MKR WiFi
 hide_title: true
 sidebar_position: 9
 draft: false

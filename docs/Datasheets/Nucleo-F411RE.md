@@ -1,5 +1,5 @@
 ---
-title: Nucleo-F411RE
+title: Nucleo F411RE
 hide_title: true
 sidebar_position: 15
 draft: false

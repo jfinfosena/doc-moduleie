@@ -1,5 +1,5 @@
 ---
-title: LED_RGB
+title: LED RGB
 hide_title: true
 sidebar_position: 35
 draft: false
