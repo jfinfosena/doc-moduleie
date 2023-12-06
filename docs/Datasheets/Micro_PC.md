@@ -1,5 +1,5 @@
 ---
-title: MINI PC
+title: Micro PC
 hide_title: true
 sidebar_position: 2
 draft: false

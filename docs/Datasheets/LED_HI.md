@@ -1,5 +1,5 @@
 ---
-title: LED_Alta_Intensidad
+title: LED de Alta Intensidad
 hide_title: true
 sidebar_position: 41
 draft: false

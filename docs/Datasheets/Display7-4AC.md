@@ -1,5 +1,5 @@
 ---
-title: Diaplay_7_4_Ac
+title: Diaplay 7 Segmentos x 4 Ac
 hide_title: true
 sidebar_position: 37
 draft: false

@@ -1,5 +1,5 @@
 ---
-title: Fuente
+title: Display 7 Segmentos cátodo común
 hide_title: true
 sidebar_position: 39
 draft: false

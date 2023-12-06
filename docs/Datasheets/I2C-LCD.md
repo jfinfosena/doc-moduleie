@@ -6,42 +6,37 @@ draft: false
 ---
 ![Encabezado](https://firebasestorage.googleapis.com/v0/b/modulo-b3e1a.appspot.com/o/General%2Fimagenes%2Flogo%20sena%202.png?alt=media&token=f8400ade-f50e-4175-8ff1-d69a8bc9a180&_gl=1*1b8f15f*_ga*MTE3MTQwMjUxOS4xNjk2MjYzMDI3*_ga_CW55HF8NVT*MTY5NjI3NDM1NS4yLjEuMTY5NjI3NTE4My4zMS4wLjA.)
 
-# **I2C LCD.**
+# **Módulo de interfaz serial I2C para pantallas LCD.**
 
-La pantalla LCD 20x4 alfanumérica monocromática de cristal líquido es una pantalla visual electrónica que utiliza las propiedades de modulación de la luz de los cristales líquidos, los cuales no emiten luz directamente.
+El módulo de interfaz serial I2C para pantallas LCD es un dispositivo que permite conectar una pantalla LCD a una placa Arduino utilizando solo dos cables. Esto es posible gracias al protocolo I2C, que permite transmitir datos en serie a través de un bus compartido.
 
-Esta pantalla está formada por un panel de cristal líquido, una fuente de luz y un conjunto de electrodos. El panel de cristal líquido está dividido en una matriz de 20 columnas y 4 filas, cada una de las cuales está formada por un píxel.
+El uso del módulo I2C para pantallas LCD ofrece las siguientes ventajas:
 
-Los electrodos están dispuestos de forma que cada píxel está conectado a dos de ellos. Cuando se aplica una tensión a los electrodos, los cristales líquidos se orientan de una manera u otra, lo que permite que la luz pase o no a través de ellos.
+- Reduce el número de cables necesarios. Las pantallas LCD tradicionales requieren 16 cables para su conexión a Arduino. El módulo I2C reduce este número a solo 2, lo que simplifica el cableado y reduce la posibilidad de errores.
+- Libera pines de Arduino. Los pines de Arduino son un recurso limitado. El uso del módulo I2C permite liberar hasta 14 pines de Arduino para otros usos.
+- Mejora la fiabilidad. Los cables son una fuente potencial de problemas. El uso del módulo I2C reduce el número de cables y, por lo tanto, el riesgo de fallos.
 
-La fuente de luz suele ser una luz fluorescente, que se enciende o apaga en función de la tensión aplicada a los electrodos.
-
-La pantalla LCD 20x4 alfanumérica monocromática tiene una resolución de 80 píxeles, lo que le permite mostrar 20 caracteres por línea y 4 líneas de texto. El texto que se muestra en la pantalla puede ser de un solo color, generalmente blanco o negro.
-
-Esta pantalla se utiliza en una amplia variedad de aplicaciones, como equipos electrónicos, instrumentos de medición, máquinas industriales y dispositivos médicos.
-
-![I2C_LCD.](https://firebasestorage.googleapis.com/v0/b/modulo-b3e1a.appspot.com/o/General%2Fimagenes%2FRepositorio%2FLCD-20x4%20BLUE.webp?alt=media&token=7ee8d36a-de15-4540-a1a5-4eabe998447a)
+![I2C_LCD.](https://firebasestorage.googleapis.com/v0/b/modulo-b3e1a.appspot.com/o/General%2Fimagenes%2FRepositorio%2FI2C.jpg?alt=media&token=0ef5e749-87c3-4c53-b112-25f9cb75b0e8)
 
 ***Especificaciones:***
 
-- Resolución: 20 caracteres x 4 líneas.
-- Conector de pantalla: Cabezal de pines, 16 pines.
-- Temperatura de funcionamiento: -20 ~ +70 °C.
-- Temperatura de almacenamiento: -30 ~ +80 °C.	
-- Controlador: HD44780 o equivalente KS0066 o SPLC780.
-- Interfaz: 6800 8 bits en paralelo, 6800 4 bits en paralelo.
-- Dirección de visualización: 6:00.	
-- Reloj: 1/16.	
-- Ciclo de trabajo del LCD: 1/5.
-
+- Chip: PCF8574.
+- Contiene 4 líneas de conexión.
+- Contraste ajustable (potenciómetro o jumper).
+- Compatible con pantallas: LCD 16x2 y 20x4.
+- Rango de direcciones I2C: 0x20 a 0x27 (0x20 por defecto).
+- Dimensiones: 41x19mm.
+- Compatible con el protocolo I2C, por lo que puede compartir el bus con otros dispositivos.
 
 ***Pinout:***
 
-![I2C_LCD_Pinout](https://firebasestorage.googleapis.com/v0/b/modulo-b3e1a.appspot.com/o/General%2Fimagenes%2FRepositorio%2FLCD-20x4%20PINOUT.webp?alt=media&token=1806f598-d7cf-44d4-b07f-174ce652e835).
-- (Obtenido de: https://www.theengineeringprojects.com/2019/12/introduction-to-20-x-4-lcd-module.html).
+![I2C_LCD_Pinout](https://firebasestorage.googleapis.com/v0/b/modulo-b3e1a.appspot.com/o/General%2Fimagenes%2FRepositorio%2FI2C-Pinout.png?alt=media&token=46514d2f-a662-4180-90f3-44aa16abfc0c).
+- (Obtenido de: https://electronicsprojects.in/wp-content/uploads/2023/03/I2C-Serial-Interface-Module-Pinout-Image.png).
 
 ### Documentación adicional:
 
-[Ficha Técnica.](https://firebasestorage.googleapis.com/v0/b/modulo-b3e1a.appspot.com/o/General%2Fimagenes%2FRepositorio%2FLCD-20x4.pdf?alt=media&token=17918290-3bef-4616-9c21-0b69a8f8d6f8)
+[Fuente 1.](https://electronicsprojects.in/components/i2c-serial-interface-module-pinout-and-projects/)
 
-[Fuente 1.](https://www.theengineeringprojects.com/2019/12/introduction-to-20-x-4-lcd-module.html)
+[Fuente 2.](https://www.eneka.com.uy/robotica/modulos-comunicacion/m%C3%B3dulo-interfaz-serail-i2c-detail.html#:~:text=El%20M%C3%B3dulo%20de%20interfaz%20serial,de%20sensores%20o%20tarjetas%20SD.)
+
+[Libreria.](https://firebasestorage.googleapis.com/v0/b/modulo-b3e1a.appspot.com/o/General%2Fimagenes%2FRepositorio%2FLiquidCrystal_I2C.zip?alt=media&token=3b8f55f5-a2e6-43aa-8323-388a483d0678)

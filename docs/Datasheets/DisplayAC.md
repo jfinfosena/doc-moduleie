@@ -1,5 +1,5 @@
 ---
-title: Display_7_AC
+title: Display 7 Segmentos ánodo común
 hide_title: true
 sidebar_position: 38
 draft: false

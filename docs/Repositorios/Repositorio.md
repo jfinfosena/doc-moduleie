@@ -110,7 +110,7 @@ draft: false
 - 16.06. [Sensor de rango láser VL53L0X.](../Datasheets/L53L0X)
 - 16.07. [Módulo de Sensor de magnetómetro de brújula.](../Datasheets/MSMB)
 - 16.08. [Módulo de Radar de detección de presencia humana inteligente.](../Datasheets/MRDPHI)
-- 16.09. [Sensor de Color RGB TCS34725.](../Datasheets/TCS34725)
+<!-- - 16.09. [Sensor de Color RGB TCS34725.](../Datasheets/TCS34725)
 - 16.10. [Módulo de Sensor de reconocimiento de gestos PAJ7620U2.](../Datasheets/PAJ7620U2)
 - 16.11. [SVEML7700 Módulo de sensor de luz ambiental.](../Datasheets/SVEML7700)
 - 16.12. [Módulo de rango ultrasónico integrado, control de vuelo.](../Datasheets/MRUICV)
@@ -159,4 +159,4 @@ draft: false
 
 ### 21. DRIVER TRANSISTOR IGBT.
 - 21.1. [Optoacoplador HCPL3120.](../Datasheets/HCPL3120)
-- 21.2. [Transistor GT50JR22.](../Datasheets/GT50JR22) 
+- 21.2. [Transistor GT50JR22.](../Datasheets/GT50JR22)  -->

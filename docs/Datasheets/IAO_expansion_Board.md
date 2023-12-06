@@ -1,5 +1,5 @@
 ---
-title: Tarjeta_de_expansión.
+title: Tarjeta de expansión.
 hide_title: true
 sidebar_position: 30
 draft: false

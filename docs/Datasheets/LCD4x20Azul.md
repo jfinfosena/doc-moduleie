@@ -1,5 +1,5 @@
 ---
-title: LCD_4x20_Azul
+title: LCD 4x20 Azul
 hide_title: true
 sidebar_position: 42
 draft: false
